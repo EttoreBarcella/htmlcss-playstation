@@ -1,3 +1,8 @@
+/* COLORS */
+.btn-danger{
+    background-color: #cd3d0f;
+}
+
 /* HEADER */
 
 .header_top{
@@ -24,3 +29,48 @@
     border-radius: 40px;
     margin: 0 20px 0 10px;
 }
+
+/* MAIN */
+
+.container_hero{
+    width: 100%;
+    min-height: 443px;
+}
+
+.box_img_hero img{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+
+.text_hero{
+    padding-top: 320px;
+    position: relative;
+    color: white;
+    margin-bottom: 100px;
+}
+
+.text_hero_title{
+    width: 50%;
+    padding-bottom: 20px;
+}
+
+.btn_hero{
+    border-radius: 40px;
+    margin: 5px 0;
+}
+
+.first_row{
+    padding-top: 130px;
+}
+
+.box_img_thumb{
+    padding: 10px 0;
+}
+
+.box_img_thumb img{
+    width: 100%;
+    border-radius: 30px;
+}
+
