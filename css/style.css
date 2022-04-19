@@ -5,6 +5,13 @@
     background-color: #cd3d0f;
 }
 
+.hero_second{
+    background-color: #1f1f1f;
+}
+
+.text_hero_second{
+    color: white;
+}
 /* HEADER */
 
 .header_top{
@@ -34,10 +41,13 @@
 
 /* MAIN */
 
+.hero{
+    padding-bottom: 150px;
+}
+
 .container_hero{
     width: 100%;
     min-height: 443px;
-    padding-bottom: 150px;
 }
 
 .box_img_hero img{
@@ -97,6 +107,21 @@
 
 .box_img img{
     width: 100%;
+}
+
+.text_hero_takestwo{
+    padding-top: 50px;
+    position: relative;
+    color: white;
+    margin-bottom: 180px;
+}
+
+.console{
+    padding-bottom: 50px;
+}
+
+.hero_second{
+    padding-bottom: 80px;
 }
 
 /* RESPONSIVE */
