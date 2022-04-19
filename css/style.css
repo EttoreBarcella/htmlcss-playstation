@@ -124,6 +124,14 @@
     padding-bottom: 80px;
 }
 
+.box_img_play_four img{
+    width: 100%;
+}
+
+.title_play_four{
+    padding-top: 50px;
+}
+
 /* RESPONSIVE */
 
 @media screen and (min-width: 768px) {
