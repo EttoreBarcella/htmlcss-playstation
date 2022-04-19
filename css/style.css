@@ -1,0 +1,26 @@
+/* HEADER */
+
+.header_top{
+    background-color: black;
+}
+.logo_header_top{
+    height: 30px;
+    margin: 3px 0;
+}
+
+.chevron_header{
+    width: 10px;
+}
+
+.nav_right{
+    justify-content: flex-end;
+}
+
+.lens_header{
+    height: 25px;
+}
+
+.btn_header{
+    border-radius: 40px;
+    margin: 0 20px 0 10px;
+}
