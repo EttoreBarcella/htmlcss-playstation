@@ -5,12 +5,19 @@
     background-color: #cd3d0f;
 }
 
+.btn-light{
+    background-color: #d9dadc;
+}
 .hero_second{
     background-color: #1f1f1f;
 }
 
 .text_hero_second{
     color: white;
+}
+
+.play_plus{
+    background-color: #bebcbb;
 }
 /* HEADER */
 
@@ -132,6 +139,26 @@
     padding-top: 50px;
 }
 
+.play_four{
+    padding-bottom: 150px;
+}
+
+.img_play_plus img{
+    width: 60%;
+    padding-top: 50px;
+    padding-bottom: 30px;
+}
+
+.img_right_plus img{
+    width: 100%;
+    height: 100%;
+}
+
+.btn-light{
+    border-radius: 40px;
+    margin-bottom: 30px;
+    margin-top: 15px;
+}
 /* RESPONSIVE */
 
 @media screen and (min-width: 768px) {
