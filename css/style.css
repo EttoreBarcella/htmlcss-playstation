@@ -1,3 +1,5 @@
+
+
 /* COLORS */
 .btn-danger{
     background-color: #cd3d0f;
@@ -35,6 +37,7 @@
 .container_hero{
     width: 100%;
     min-height: 443px;
+    padding-bottom: 150px;
 }
 
 .box_img_hero img{
@@ -74,3 +77,38 @@
     border-radius: 30px;
 }
 
+.btn-primary{
+    border-radius: 40px;
+}
+.img_col_right img{
+    width: 100%;
+}
+
+.box_img_console{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.box_img{
+    width: calc(100% / 3);
+}
+
+.box_img img{
+    width: 100%;
+}
+
+/* RESPONSIVE */
+
+@media screen and (min-width: 768px) {
+    .box_img{
+        width: calc(100% / 5);
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .box_img{
+        width: calc(100% / 5);
+    }
+}
