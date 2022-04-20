@@ -68,7 +68,7 @@
     padding-top: 320px;
     position: relative;
     color: white;
-    margin-bottom: 100px;
+    margin-bottom: 250px;
 }
 
 .text_hero_title{
@@ -120,7 +120,7 @@
     padding-top: 50px;
     position: relative;
     color: white;
-    margin-bottom: 180px;
+    margin-bottom: 250px;
 }
 
 .console{
@@ -154,10 +154,16 @@
     height: 100%;
 }
 
+
 .btn-light{
     border-radius: 40px;
     margin-bottom: 30px;
     margin-top: 15px;
+}
+
+.box_img_sales img{
+    width: 100%;
+    padding-bottom: 50px;
 }
 /* RESPONSIVE */
 
