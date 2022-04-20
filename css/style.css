@@ -27,10 +27,9 @@
 
 .play_now{
     background-color: #161c3b;
-    color: white
+    color: white;
+    margin-bottom: 50px;
 }
-
-
 /* HEADER */
 
 .header_top{
@@ -174,12 +173,19 @@
     margin-top: 15px;
 }
 
-.box_img_sales img{
+.box_img_sales img, .box_img_social img{
     width: 100%;
     padding-bottom: 50px;
 }
 
+.container-custom{
+    max-width: 535px;
+    margin: auto;
+}
 
+.title_social{
+    padding-bottom: 50px;
+}
 
 /* RESPONSIVE */
 
