@@ -1,6 +1,10 @@
 
 
 /* COLORS */
+.header_bottom{
+    background-color: white;
+}
+
 .btn-danger{
     background-color: #cd3d0f;
 }
@@ -18,7 +22,15 @@
 
 .play_plus{
     background-color: #bebcbb;
+    margin-bottom: 50px;
 }
+
+.play_now{
+    background-color: #161c3b;
+    color: white
+}
+
+
 /* HEADER */
 
 .header_top{
@@ -45,6 +57,7 @@
     border-radius: 40px;
     margin: 0 20px 0 10px;
 }
+
 
 /* MAIN */
 
@@ -143,7 +156,7 @@
     padding-bottom: 150px;
 }
 
-.img_play_plus img{
+.img_play_plus img, .img_play_now img{
     width: 60%;
     padding-top: 50px;
     padding-bottom: 30px;
@@ -165,6 +178,9 @@
     width: 100%;
     padding-bottom: 50px;
 }
+
+
+
 /* RESPONSIVE */
 
 @media screen and (min-width: 768px) {
