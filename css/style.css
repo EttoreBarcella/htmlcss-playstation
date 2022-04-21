@@ -115,7 +115,7 @@ header{
 }
 
 .first_row{
-    padding-top: 130px;
+    padding-top: 150px;
 }
 
 .box_img_thumb{
@@ -258,10 +258,14 @@ header{
     text-decoration: underline;
 }
 
-.box_img_thumb img:hover{
+.selected_img img:hover{
     padding: 1px;
     border: 2px solid #00439c;
     border-radius: 40px;
+}
+
+.btn-primary :hover{
+    border: 1px solid black;
 }
 
 /* RESPONSIVE */
@@ -275,5 +279,13 @@ header{
 @media screen and (min-width: 992px) {
     .box_img{
         width: calc(100% / 5);
+    }
+
+    .selected_img_up{
+        transition: all 1s smooth;
+    }
+
+    .selected_img_up:hover{
+        transform: translateY(-20px);
     }
 }
