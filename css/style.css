@@ -2,6 +2,9 @@
 .btn{
     border-radius: 40px;
 }
+.btn:hover{
+    box-shadow: inset 0 0 0 2px white;
+}
 /* COLORS */
 .header_bottom{
     background-color: white;
